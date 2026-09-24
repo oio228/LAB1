@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //Code for revert
+
         val root = findViewById<LinearLayout>(R.id.main)
         val textView = findViewById<TextView>(R.id.textView)
         val btnChangeText = findViewById<Button>(R.id.btnChangeText)
