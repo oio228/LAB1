@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnChangeBg.setOnClickListener {
-            root.setBackgroundColor(Color.YELLOW)
+            root.setBackgroundColor(Color.CYAN)
         }
     }
 }
